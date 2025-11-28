@@ -5,9 +5,7 @@ import org.testng.annotations.Test;
 import org.testng.Assert;
 
 /****************************************/
-// TestCase 1: Inicio de Sesión Exitoso
-// 
-// Prueba de Aceptacion: Verificar que el inicio de sesión con credenciales válidas sea exitoso
+// TestCase 1: Verificar que el inicio de sesión con credenciales válidas sea exitoso
 //
 // Paso 1. Hacer clic en "Iniciar Sesión"
 // Paso 2. Completar el campo de usuario con: admin

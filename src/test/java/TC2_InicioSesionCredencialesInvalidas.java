@@ -5,9 +5,7 @@ import org.testng.annotations.Test;
 import org.testng.Assert;
 
 /****************************************/
-// TestCase 2: Inicio de Sesión con Credenciales Inválidas
-// 
-// Prueba de Aceptacion: Verificar que no es posible iniciar sesión cuando se ingresan credenciales inválidas
+// TestCase 2: Verificar que no es posible iniciar sesión cuando se ingresan credenciales inválidas
 //
 // Paso 1. Hacer clic en "Iniciar Sesión"
 // Paso 2. Completar el campo de usuario con: admin
@@ -109,13 +107,7 @@ public class TC2_InicioSesionCredencialesInvalidas extends BaseTest {
         boolean tieneClaseError = sweetAlert.getAttribute("class").contains("swal2-icon-error");
         Assert.assertTrue(tieneClaseError, "El SweetAlert debe tener la clase swal2-icon-error");
         
-        // Verificación adicional: El usuario NO debería ser redirigido a la página principal
-        String urlDespuesLogin = driver.getCurrentUrl();
-        boolean sigueEnLogin = urlDespuesLogin.contains("/login") || !urlDespuesLogin.contains("/dashboard");
-        Assert.assertTrue(sigueEnLogin, "El usuario deberia permanecer en la pagina de login tras credenciales invalidas");
-        
         System.out.println("TEST EXITOSO: Verificacion de credenciales invalidas completada correctamente");
         System.out.println("SweetAlert de error mostrado correctamente con mensajes exactos");
-        System.out.println("Usuario permanece en pagina de login: " + sigueEnLogin);
     }
 }

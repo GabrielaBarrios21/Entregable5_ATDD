@@ -1,5 +1,6 @@
 Configuracion.class
 BuscarGoogleTest.class
+TC3_ValidacionCamposVacios.class
 TC1_InicioSesionExitoso.class
 TC2_InicioSesionCredencialesInvalidas.class
 BaseTest.class

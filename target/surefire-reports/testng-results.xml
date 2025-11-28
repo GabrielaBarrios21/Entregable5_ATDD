@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-28T13:30:48Z" name="Surefire suite" finished-at="2025-11-28T13:31:03Z" duration-ms="14604">
+  <suite started-at="2025-11-28T14:11:47Z" name="Surefire suite" finished-at="2025-11-28T14:12:22Z" duration-ms="34973">
     <groups>
     </groups>
-    <test started-at="2025-11-28T13:30:48Z" name="Surefire test" finished-at="2025-11-28T13:31:03Z" duration-ms="14604">
-      <class name="TC2_InicioSesionCredencialesInvalidas">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:TC2_InicioSesionCredencialesInvalidas@12028586]" started-at="2025-11-28T09:30:48Z" name="setDriver" finished-at="2025-11-28T09:30:50Z" duration-ms="2002" status="PASS">
+    <test started-at="2025-11-28T14:11:47Z" name="Surefire test" finished-at="2025-11-28T14:12:22Z" duration-ms="34973">
+      <class name="TC3_ValidacionCamposVacios">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:TC3_ValidacionCamposVacios@12028586]" started-at="2025-11-28T10:11:47Z" name="setDriver" finished-at="2025-11-28T10:11:49Z" duration-ms="1960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="testInicioSesionCredencialesInvalidas()[pri:0, instance:TC2_InicioSesionCredencialesInvalidas@12028586]" started-at="2025-11-28T09:30:50Z" name="testInicioSesionCredencialesInvalidas" finished-at="2025-11-28T09:31:02Z" duration-ms="12168" status="PASS">
+        <test-method signature="testValidacionCamposVacios()[pri:0, instance:TC3_ValidacionCamposVacios@12028586]" started-at="2025-11-28T10:11:49Z" name="testValidacionCamposVacios" finished-at="2025-11-28T10:12:22Z" duration-ms="32616" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInicioSesionCredencialesInvalidas -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TC2_InicioSesionCredencialesInvalidas@12028586]" started-at="2025-11-28T09:31:02Z" name="closeDriver" finished-at="2025-11-28T09:31:03Z" duration-ms="427" status="PASS">
+        </test-method> <!-- testValidacionCamposVacios -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TC3_ValidacionCamposVacios@12028586]" started-at="2025-11-28T10:12:22Z" name="closeDriver" finished-at="2025-11-28T10:12:22Z" duration-ms="385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- TC2_InicioSesionCredencialesInvalidas -->
+      </class> <!-- TC3_ValidacionCamposVacios -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
