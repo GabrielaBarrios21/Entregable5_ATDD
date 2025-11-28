@@ -9,7 +9,10 @@ TC11_CategoriaNombreDuplicado.class
 TC3_ValidacionCamposVacios.class
 TC87_VerificarBotonLimpiar.class
 Configuracion.class
+TC20_ModificarPlato.class
+TC16_CrearPlato.class
 TC47_VerificarEmailDuplicado.class
 TC85_VerificarUsernameDuplicado.class
+TC09_GenerarCuentaPedidoEntregado.class
 TC1_InicioSesionExitoso.class
 BaseTest.class

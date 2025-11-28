@@ -1,31 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="0" failed="1" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2025-11-28T20:32:40Z" name="Surefire suite" finished-at="2025-11-28T20:34:09Z" duration-ms="89528">
-    <groups>
-    </groups>
-    <test started-at="2025-11-28T20:32:40Z" name="Surefire test" finished-at="2025-11-28T20:34:09Z" duration-ms="89528">
-      <class name="TC09_GenerarCuentaPedidoEntregado">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:TC09_GenerarCuentaPedidoEntregado@12028586]" started-at="2025-11-28T16:32:40Z" name="setDriver" finished-at="2025-11-28T16:32:42Z" duration-ms="2559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method signature="testGenerarCuentaPedidoEntregado()[pri:0, instance:TC09_GenerarCuentaPedidoEntregado@12028586]" started-at="2025-11-28T16:32:42Z" name="testGenerarCuentaPedidoEntregado" finished-at="2025-11-28T16:34:09Z" duration-ms="86528" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".swal2-popup.swal2-icon-success"}
-  (Session info: chrome=142.0.7444.176)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KB6RPLP', ip: '25.18.21.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\USUARIO\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51046}, goog:processID: 4016, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cd8fdd9dac833b2bf09cb22bbdbe5005
-*** Element info: {Using=css selector, value=.swal2-popup.swal2-icon-success}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".swal2-popup.swal2-icon-success"}
+-------------------------------------------------------------------------------
+Test set: TC09_GenerarCuentaPedidoEntregado
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 90.06 s <<< FAILURE! -- in TC09_GenerarCuentaPedidoEntregado
+TC09_GenerarCuentaPedidoEntregado.testGenerarCuentaPedidoEntregado -- Time elapsed: 86.54 s <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".swal2-popup.swal2-icon-success"}
   (Session info: chrome=142.0.7444.176)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -81,17 +60,4 @@ Session ID: cd8fdd9dac833b2bf09cb22bbdbe5005
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGenerarCuentaPedidoEntregado -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TC09_GenerarCuentaPedidoEntregado@12028586]" started-at="2025-11-28T16:34:09Z" name="closeDriver" finished-at="2025-11-28T16:34:09Z" duration-ms="413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- TC09_GenerarCuentaPedidoEntregado -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
-</testng-results>
+
