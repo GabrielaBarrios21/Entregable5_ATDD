@@ -47,7 +47,7 @@ public class TC85_VerificarUsernameDuplicado extends BaseTest {
         WebElement campoUsuario = driver.findElement(By.id("username"));
         WebElement campoPassword = driver.findElement(By.id("password"));
         campoUsuario.sendKeys("admin");
-        campoPassword.sendKeys("123456");
+        campoPassword.sendKeys("Passwor123!");
         
         WebElement botonLogin = driver.findElement(By.xpath("//button//span[contains(text(), 'Iniciar Sesión')]"));
         botonLogin.click();
@@ -110,7 +110,7 @@ public class TC85_VerificarUsernameDuplicado extends BaseTest {
         String email = "nuevo" + timestamp + "@gmail.com"; // Email nuevo
         String username = "nuevo"; // Username ya registrado
         String telefono = "555123456";
-        String password = "123456";
+        String password = "Password123!";
         
         // Llenar campos del formulario
         driver.findElement(By.id("nombre")).sendKeys(nombre);

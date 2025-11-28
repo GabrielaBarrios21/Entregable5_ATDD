@@ -5,5 +5,8 @@ D:\GitHub\Entregable5_ATDD\src\test\java\TC1_InicioSesionExitoso.java
 D:\GitHub\Entregable5_ATDD\src\test\java\TC2_InicioSesionCredencialesInvalidas.java
 D:\GitHub\Entregable5_ATDD\src\test\java\TC3_ValidacionCamposVacios.java
 D:\GitHub\Entregable5_ATDD\src\test\java\TC47_VerificarEmailDuplicado.java
+D:\GitHub\Entregable5_ATDD\src\test\java\TC50_CambioContrasena.java
 D:\GitHub\Entregable5_ATDD\src\test\java\TC5_RegistroNuevoUsuario.java
 D:\GitHub\Entregable5_ATDD\src\test\java\TC85_VerificarUsernameDuplicado.java
+D:\GitHub\Entregable5_ATDD\src\test\java\TC86_RegistroUsuarioCliente.java
+D:\GitHub\Entregable5_ATDD\src\test\java\TC87_VerificarBotonLimpiar.java

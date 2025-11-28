@@ -48,7 +48,7 @@ public class TC5_RegistroNuevoUsuario extends BaseTest {
         WebElement campoUsuario = driver.findElement(By.id("username"));
         WebElement campoPassword = driver.findElement(By.id("password"));
         campoUsuario.sendKeys("admin");
-        campoPassword.sendKeys("123456");
+        campoPassword.sendKeys("Password123!");
         
         WebElement botonLogin = driver.findElement(By.xpath("//button//span[contains(text(), 'Iniciar Sesión')]"));
         botonLogin.click();
@@ -111,7 +111,7 @@ public class TC5_RegistroNuevoUsuario extends BaseTest {
         String email = "nuevo" + timestamp + "@gmail.com";
         String username = "nuevo" + timestamp;
         String telefono = "123456789";
-        String password = "123456";
+        String password = "Password123!";
         
         // Llenar campos del formulario
         driver.findElement(By.id("nombre")).sendKeys(nombre);

@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-28T15:00:08Z" name="Surefire suite" finished-at="2025-11-28T15:00:39Z" duration-ms="31303">
+  <suite started-at="2025-11-28T16:52:49Z" name="Surefire suite" finished-at="2025-11-28T16:53:36Z" duration-ms="46819">
     <groups>
     </groups>
-    <test started-at="2025-11-28T15:00:08Z" name="Surefire test" finished-at="2025-11-28T15:00:39Z" duration-ms="31303">
-      <class name="TC85_VerificarUsernameDuplicado">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:TC85_VerificarUsernameDuplicado@12028586]" started-at="2025-11-28T11:00:08Z" name="setDriver" finished-at="2025-11-28T11:00:11Z" duration-ms="3069" status="PASS">
+    <test started-at="2025-11-28T16:52:49Z" name="Surefire test" finished-at="2025-11-28T16:53:36Z" duration-ms="46819">
+      <class name="TC50_CambioContrasena">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:TC50_CambioContrasena@12028586]" started-at="2025-11-28T12:52:49Z" name="setDriver" finished-at="2025-11-28T12:52:53Z" duration-ms="3441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="testVerificarUsernameDuplicado()[pri:0, instance:TC85_VerificarUsernameDuplicado@12028586]" started-at="2025-11-28T11:00:11Z" name="testVerificarUsernameDuplicado" finished-at="2025-11-28T11:00:39Z" duration-ms="27818" status="PASS">
+        <test-method signature="testCambioContrasena()[pri:0, instance:TC50_CambioContrasena@12028586]" started-at="2025-11-28T12:52:53Z" name="testCambioContrasena" finished-at="2025-11-28T12:53:35Z" duration-ms="42828" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testVerificarUsernameDuplicado -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TC85_VerificarUsernameDuplicado@12028586]" started-at="2025-11-28T11:00:39Z" name="closeDriver" finished-at="2025-11-28T11:00:39Z" duration-ms="398" status="PASS">
+        </test-method> <!-- testCambioContrasena -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TC50_CambioContrasena@12028586]" started-at="2025-11-28T12:53:35Z" name="closeDriver" finished-at="2025-11-28T12:53:36Z" duration-ms="532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- TC85_VerificarUsernameDuplicado -->
+      </class> <!-- TC50_CambioContrasena -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

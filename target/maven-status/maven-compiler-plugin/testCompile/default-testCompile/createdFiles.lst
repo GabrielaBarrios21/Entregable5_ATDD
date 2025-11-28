@@ -1,4 +1,6 @@
 Configuracion.class
+TC50_CambioContrasena.class
+TC86_RegistroUsuarioCliente.class
 TC5_RegistroNuevoUsuario.class
 TC2_InicioSesionCredencialesInvalidas.class
 TC47_VerificarEmailDuplicado.class
@@ -6,4 +8,5 @@ BuscarGoogleTest.class
 TC3_ValidacionCamposVacios.class
 TC85_VerificarUsernameDuplicado.class
 TC1_InicioSesionExitoso.class
+TC87_VerificarBotonLimpiar.class
 BaseTest.class

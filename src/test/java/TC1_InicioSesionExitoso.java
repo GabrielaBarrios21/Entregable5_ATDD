@@ -53,8 +53,8 @@ public class TC1_InicioSesionExitoso extends BaseTest {
         
         // Paso 3. Completar el campo de contraseña  
         WebElement campoPassword = driver.findElement(By.id("password"));
-        campoPassword.sendKeys("123456");
-        System.out.println("Contraseña ingresada: 123456");
+        campoPassword.sendKeys("Password123!");
+        System.out.println("Contraseña ingresada: Password123!");
         
         // Pequeña pausa para ver la interacción
         try {

@@ -47,7 +47,7 @@ public class TC47_VerificarEmailDuplicado extends BaseTest {
         WebElement campoUsuario = driver.findElement(By.id("username"));
         WebElement campoPassword = driver.findElement(By.id("password"));
         campoUsuario.sendKeys("admin");
-        campoPassword.sendKeys("123456");
+        campoPassword.sendKeys("Password123!");
         
         WebElement botonLogin = driver.findElement(By.xpath("//button//span[contains(text(), 'Iniciar Sesión')]"));
         botonLogin.click();
@@ -110,7 +110,7 @@ public class TC47_VerificarEmailDuplicado extends BaseTest {
         String email = "nuevo@gmail.com"; // Email ya registrado
         String username = "duplicado" + timestamp;
         String telefono = "987654321";
-        String password = "123456";
+        String password = "Password123!";
         
         // Llenar campos del formulario
         driver.findElement(By.id("nombre")).sendKeys(nombre);

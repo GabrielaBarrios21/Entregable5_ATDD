@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: TC85_VerificarUsernameDuplicado
+Test set: TC50_CambioContrasena
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.95 s -- in TC85_VerificarUsernameDuplicado
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.29 s -- in TC50_CambioContrasena
