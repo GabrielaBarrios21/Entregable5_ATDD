@@ -1,6 +1,9 @@
 Configuracion.class
+TC5_RegistroNuevoUsuario.class
+TC2_InicioSesionCredencialesInvalidas.class
+TC47_VerificarEmailDuplicado.class
 BuscarGoogleTest.class
 TC3_ValidacionCamposVacios.class
+TC85_VerificarUsernameDuplicado.class
 TC1_InicioSesionExitoso.class
-TC2_InicioSesionCredencialesInvalidas.class
 BaseTest.class
