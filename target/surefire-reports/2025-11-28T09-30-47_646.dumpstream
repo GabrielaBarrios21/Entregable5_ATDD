@@ -1,0 +1,5 @@
+# Created at 2025-11-28T09:30:47.941
+Boot Manifest-JAR contains absolute paths in classpath 'D:\GitHub\Entregable5_ATDD\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

@@ -1,0 +1,5 @@
+Configuracion.class
+BuscarGoogleTest.class
+TC1_InicioSesionExitoso.class
+TC2_InicioSesionCredencialesInvalidas.class
+BaseTest.class
