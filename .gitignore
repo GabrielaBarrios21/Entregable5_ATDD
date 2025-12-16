@@ -23,4 +23,8 @@
 hs_err_pid*
 replay_pid*
 
-/target/*.*
+# VS Code directory
+.vscode
+
+# target directory
+/target/
