@@ -67,14 +67,36 @@
 
   <script>
     function registrar() {
-      // Como todos los campos son required, si faltara algo
-      // el navegador automáticamente detiene el submit.
-      // Solo llegamos aquí si todos los campos están completos.
-      Swal.fire({
-        icon: "success",
-        title: "Felicidades",
-        text: "Ya estás registrado"
-      });
+        const nombre = document.getElementById("nombre").value;
+        const correo = document.getElementById("correo").value;
+        const paisSelect = document.getElementById("pais");
+        const pais = paisSelect.options[paisSelect.selectedIndex].text.toUpperCase();
+
+        Swal.fire({
+        showConfirmButton: false,
+        html: `
+            <div style="font-family: Arial, sans-serif; text-align:left; size:14px; border:1px solid #ccc; border-radius:8px; overflow:hidden;">
+            
+            <div style="padding:16px; background:#1976d2; color:white; text-align:center;">
+                <div style="font-size:18px; font-weight:600;">
+                Felicidades
+                </div>
+                <div style="font-size:16px;">
+                ya estas registrado!
+                </div>
+            </div>
+
+            <div style="background:#f5f5f5; padding:16px;">
+                <div style="font-size:14px; color:#333;">
+                    <div>${nombre}</div>
+                    <div>${correo}</div>
+                    <div>${pais}</div>
+                </div>
+            </div>
+
+            </div>
+        `
+        });
     }
   </script>
 
