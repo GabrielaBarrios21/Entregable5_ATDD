@@ -3,23 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Registro de Usuario</title>
-
-  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
 
   <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-    
-    <h2 class="text-2xl font-semibold mb-6 text-center">
-      Datos Personales
-    </h2>
+    <h2 class="text-2xl font-semibold mb-6 text-center">Datos Personales</h2>
 
-    <!-- FORMULARIO -->
-    <div class="space-y-4">
+    <form onsubmit="registrar(); return false;" class="space-y-4">
 
       <!-- Correo -->
       <div>
@@ -29,6 +21,7 @@
           id="correo"
           class="w-full border rounded px-3 py-2 focus:outline-none focus:ring"
           placeholder="test@gmail.com"
+          required
         />
       </div>
 
@@ -40,6 +33,7 @@
           id="nombre"
           class="w-full border rounded px-3 py-2 focus:outline-none focus:ring"
           placeholder="Test input"
+          required
         />
       </div>
 
@@ -47,8 +41,9 @@
       <div>
         <label class="block text-sm font-medium mb-1">País</label>
         <select
-          name="pais"
+          id="pais"
           class="w-full border rounded px-3 py-2 focus:outline-none focus:ring"
+          required
         >
           <option value="">Seleccione un país</option>
           <option value="BO">Bolivia</option>
@@ -57,35 +52,24 @@
         </select>
       </div>
 
-      <!-- BOTÓN (pensado para xpath=/div/button) -->
+      <!-- Botón -->
       <div class="pt-4">
         <button
-          onclick="registrar()"
+          type="submit"
           class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
         >
           REGISTRARSE
         </button>
       </div>
 
-    </div>
+    </form>
   </div>
 
-  <!-- SCRIPT -->
   <script>
     function registrar() {
-      const correo = document.getElementById("correo").value;
-      const nombre = document.getElementById("nombre").value;
-      const pais = document.querySelector("select[name='pais']").value;
-
-      if (correo === "" || nombre === "" || pais === "") {
-        Swal.fire({
-          icon: "error",
-          title: "Error",
-          text: "Complete todos los campos"
-        });
-        return;
-      }
-
+      // Como todos los campos son required, si faltara algo
+      // el navegador automáticamente detiene el submit.
+      // Solo llegamos aquí si todos los campos están completos.
       Swal.fire({
         icon: "success",
         title: "Felicidades",
